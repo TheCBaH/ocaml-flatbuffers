@@ -27,6 +27,6 @@ build: [
 ]
 install: [
   ["install" "-m" "755" "flatc.ocaml" "%{bin}%/flatc.ocaml"]
-  ["install" "-d" "%{doc}%"]
-  ["install" "-m" "644" "LICENSE" "NOTICE" "PROVENANCE.md" "%{doc}%"]
+  ["install" "-d" "%{_:doc}%"]
+  ["install" "-m" "644" "LICENSE" "NOTICE" "PROVENANCE.md" "%{_:doc}%"]
 ]

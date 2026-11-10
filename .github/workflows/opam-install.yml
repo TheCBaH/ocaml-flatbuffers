@@ -74,7 +74,11 @@ jobs:
           for package in flatbuffers flatbuffers-tools; do
             doc_dir=$(opam var "$package:doc")
             for file in LICENSE NOTICE PROVENANCE.md; do
-              test -s "$doc_dir/$file"
+              if [ ! -s "$doc_dir/$file" ]; then
+                echo "::error::Missing $package attribution file: $doc_dir/$file"
+                ls -la "$doc_dir"
+                exit 1
+              fi
             done
             grep -q 'dmitrig' "$doc_dir/NOTICE"
             grep -q 'Vladimir N. Silyaev' "$doc_dir/NOTICE"
