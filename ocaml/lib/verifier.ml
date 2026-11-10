@@ -1,3 +1,6 @@
+(* Copyright 2026 Vladimir N. Silyaev
+   SPDX-License-Identifier: Apache-2.0 *)
+
 (* Structural verification of untrusted FlatBuffers.
 
    Behavioral reference: flatbuffers/include/flatbuffers/verifier.h. Deliberate

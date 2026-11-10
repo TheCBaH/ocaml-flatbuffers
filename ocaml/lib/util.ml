@@ -1,3 +1,7 @@
+(* Original OCaml implementation by dmitrig, 2022-2023.
+   Modified by Vladimir N. Silyaev, 2026.
+   SPDX-License-Identifier: Apache-2.0 *)
+
 #if TARGET_INT_SIZE <> 31 && TARGET_INT_SIZE <> 32 && TARGET_INT_SIZE <> 63
 #error "TARGET_INT_SIZE must be 31, 32, or 63"
 #endif

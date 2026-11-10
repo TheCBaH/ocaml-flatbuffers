@@ -1,3 +1,7 @@
+(* Original OCaml implementation by dmitrig, 2022-2023.
+   Modified by Vladimir N. Silyaev, 2026.
+   SPDX-License-Identifier: Apache-2.0 *)
+
 (** FlatBuffers are constructed back-to-front. [index] is relative to the end
     of the buffer; the remaining fields prevent an offset from escaping its
     builder, build cycle, or completed-object constructor. *)

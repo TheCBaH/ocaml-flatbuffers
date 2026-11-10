@@ -1,3 +1,6 @@
+(* Copyright 2026 Vladimir N. Silyaev
+   SPDX-License-Identifier: Apache-2.0 *)
+
 (** Structural verification of untrusted FlatBuffers.
 
     The zero-copy readers in {!Read} and {!Runtime} perform no bounds checking:

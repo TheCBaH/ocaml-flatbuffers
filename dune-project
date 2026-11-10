@@ -7,15 +7,15 @@
 (generate_opam_files false)
 
 (source
- (github TheCBaH/flatbuffers))
+ (github TheCBaH/ocaml-flatbuffers))
 
-(authors "Vladimir Silyaev")
+(authors "dmitrig" "Vladimir N. Silyaev")
 
 (maintainers "Vladimir Silyaev <thecbah@gmail.com>")
 
 (license Apache-2.0)
 
-(documentation https://github.com/TheCBaH/flatbuffers)
+(documentation https://github.com/TheCBaH/ocaml-flatbuffers)
 
 (package
  (name flatbuffers)

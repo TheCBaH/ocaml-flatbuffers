@@ -1,3 +1,6 @@
+(* Copyright 2026 Vladimir N. Silyaev
+   SPDX-License-Identifier: Apache-2.0 *)
+
 module Rt = Flatbuffers.Runtime
 module B = Rt.Builder
 module P = Flatbuffers.Primitives

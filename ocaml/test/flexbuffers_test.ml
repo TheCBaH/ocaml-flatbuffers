@@ -1,3 +1,6 @@
+(* Copyright 2026 Vladimir N. Silyaev
+   SPDX-License-Identifier: Apache-2.0 *)
+
 module F = Flatbuffers.Flexbuffers
 
 let gold_file = "../../flatbuffers/tests/gold_flexbuffer_example.bin"

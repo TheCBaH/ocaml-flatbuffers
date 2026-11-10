@@ -1,3 +1,6 @@
+(* Copyright 2026 Vladimir N. Silyaev
+   SPDX-License-Identifier: Apache-2.0 *)
+
 type t = Js.Typed_array.DataView.t
 
 let length (dv : t) = Js.Typed_array.DataView.byteLength dv

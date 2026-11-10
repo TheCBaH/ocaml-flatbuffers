@@ -1,3 +1,6 @@
+(* Copyright 2026 Vladimir N. Silyaev
+   SPDX-License-Identifier: Apache-2.0 *)
+
 module P = Flatbuffers.Primitives
 module B = Flatbuffers.Runtime.Builder
 open Fixtures.Union_vector

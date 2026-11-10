@@ -1,3 +1,6 @@
+(* Copyright 2026 Vladimir N. Silyaev
+   SPDX-License-Identifier: Apache-2.0 *)
+
 let check_greeting_roundtrip () =
   let open Fixtures.String_union in
   let b = Rt.Builder.create () in

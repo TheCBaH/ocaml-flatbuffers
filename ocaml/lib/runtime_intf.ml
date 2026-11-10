@@ -1,3 +1,7 @@
+(* Original OCaml implementation by dmitrig, 2022-2023.
+   Modified by Vladimir N. Silyaev, 2026.
+   SPDX-License-Identifier: Apache-2.0 *)
+
 (** User-facing runtime lib interface.
 
     Just defines scalars, buffer and builder types, and vectors of

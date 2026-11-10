@@ -1,3 +1,6 @@
+(* Copyright 2026 Vladimir N. Silyaev
+   SPDX-License-Identifier: Apache-2.0 *)
+
 (* Structural verification tests.
 
    The central invariant exercised here is that verification of an arbitrary

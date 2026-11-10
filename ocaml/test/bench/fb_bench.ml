@@ -1,3 +1,7 @@
+(* Original OCaml implementation by dmitrig, 2022-2023.
+   Modified by Vladimir N. Silyaev, 2026.
+   SPDX-License-Identifier: Apache-2.0 *)
+
 (* see: benchmarks/cpp/flatbuffers/fb_bench.cpp *)
 open Generated.Bench
 open BenchmarksFlatbuffers

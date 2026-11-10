@@ -1,3 +1,6 @@
+(* Copyright 2026 Vladimir N. Silyaev
+   SPDX-License-Identifier: Apache-2.0 *)
+
 module Leaf = Generated.Test64_bit.LeafStruct
 module Root = Generated.Test64_bit.RootTable
 module Rt = Generated.Test64_bit.Rt

@@ -1,3 +1,7 @@
+(* Original OCaml implementation by dmitrig, 2022-2023.
+   Modified by Vladimir N. Silyaev, 2026.
+   SPDX-License-Identifier: Apache-2.0 *)
+
 module Monster_test = Generated.Monster_test
 module Monster_extra = Generated.Monster_extra
 module Arrays_test = Generated.Arrays_test

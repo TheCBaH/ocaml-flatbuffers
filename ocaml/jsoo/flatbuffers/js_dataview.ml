@@ -1,3 +1,6 @@
+(* Copyright 2026 Vladimir N. Silyaev
+   SPDX-License-Identifier: Apache-2.0 *)
+
 open Js_of_ocaml
 
 type t = Typed_array.dataView Js.t

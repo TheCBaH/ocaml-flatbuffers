@@ -68,3 +68,14 @@ jobs:
 
       - name: install flatbuffers
         run: opam install flatbuffers --with-test -y
+
+      - name: verify installed license and attribution
+        run: |
+          for package in flatbuffers flatbuffers-tools; do
+            doc_dir=$(opam var "$package:doc")
+            for file in LICENSE NOTICE PROVENANCE.md; do
+              test -s "$doc_dir/$file"
+            done
+            grep -q 'dmitrig' "$doc_dir/NOTICE"
+            grep -q 'Vladimir N. Silyaev' "$doc_dir/NOTICE"
+          done

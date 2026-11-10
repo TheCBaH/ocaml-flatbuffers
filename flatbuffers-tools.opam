@@ -4,12 +4,12 @@ synopsis: "Flatc code generator with OCaml backend"
 description:
   "Builds the flatc code generator with the OCaml code generation backend from source. Requires cmake and a C++ compiler."
 maintainer: ["Vladimir Silyaev <thecbah@gmail.com>"]
-authors: ["Vladimir Silyaev"]
+authors: ["dmitrig" "Vladimir N. Silyaev"]
 license: "Apache-2.0"
 tags: ["flatbuffers" "serialization" "codegen" "ocaml"]
-homepage: "https://github.com/TheCBaH/flatbuffers"
-bug-reports: "https://github.com/TheCBaH/flatbuffers/issues"
-dev-repo: "git+https://github.com/TheCBaH/flatbuffers.git"
+homepage: "https://github.com/TheCBaH/ocaml-flatbuffers"
+bug-reports: "https://github.com/TheCBaH/ocaml-flatbuffers/issues"
+dev-repo: "git+https://github.com/TheCBaH/ocaml-flatbuffers.git"
 extra-source "flatbuffers.tar.gz" {
   src:
     "https://github.com/google/flatbuffers/archive/6dda43bbaa9961ad913ce949f8ebd08f3062fae2.tar.gz"
@@ -27,4 +27,6 @@ build: [
 ]
 install: [
   ["install" "-m" "755" "flatc.ocaml" "%{bin}%/flatc.ocaml"]
+  ["install" "-d" "%{doc}%"]
+  ["install" "-m" "644" "LICENSE" "NOTICE" "PROVENANCE.md" "%{doc}%"]
 ]

@@ -1,3 +1,6 @@
+(* Copyright 2026 Vladimir N. Silyaev
+   SPDX-License-Identifier: Apache-2.0 *)
+
 module P = Flatbuffers.Primitives
 
 let unsigned32 value = Int64.logand (Int64.of_int32 value) 0xFFFF_FFFFL

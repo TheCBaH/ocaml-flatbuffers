@@ -1,0 +1,23 @@
+OCaml FlatBuffers
+https://github.com/TheCBaH/ocaml-flatbuffers
+
+Initial OCaml runtime, BFBS code generator, and tests by dmitrig (2022-2023),
+from https://github.com/dmitrig/flatbuffers, branch dg/ocaml.
+
+Subsequent OCaml extensions, JavaScript support, verification, integration,
+packaging, tests, and maintenance by Vladimir N. Silyaev.
+Copyright 2026 Vladimir N. Silyaev, for his contributions.
+
+This project includes code derived from Google FlatBuffers, including the
+Lua/Nim BFBS generators used as the basis for the OCaml generator. Existing
+Google copyright and Apache-2.0 notices are retained in src/bfbs_gen_ocaml.*.
+Sample/test schemas, generated fixtures, and test data also originate in
+Google FlatBuffers where identified by their source or generation rules.
+https://github.com/google/flatbuffers
+
+The Google FlatBuffers dependency is maintained as the flatbuffers/ submodule.
+It retains its own license and source notices. The OCaml implementation and
+subsequent additions in this repository are distributed under Apache-2.0.
+
+See PROVENANCE.md for the source and import history. This notice records
+attribution and does not change the license or assign copyright ownership.

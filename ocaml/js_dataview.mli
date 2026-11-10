@@ -1,3 +1,6 @@
+(* Copyright 2026 Vladimir N. Silyaev
+   SPDX-License-Identifier: Apache-2.0 *)
+
 (** Thin abstraction over JavaScript DataView for FlatBuffer reads.
     Implemented separately for js_of_ocaml and Melange. *)
 

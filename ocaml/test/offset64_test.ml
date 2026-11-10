@@ -1,3 +1,6 @@
+(* Copyright 2026 Vladimir N. Silyaev
+   SPDX-License-Identifier: Apache-2.0 *)
+
 let check_offset64_roundtrip () =
   let open Fixtures.Test64_bit in
   let b = Rt.Builder.create () in

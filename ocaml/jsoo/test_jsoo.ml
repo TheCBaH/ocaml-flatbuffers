@@ -1,3 +1,6 @@
+(* Copyright 2026 Vladimir N. Silyaev
+   SPDX-License-Identifier: Apache-2.0 *)
+
 (* Comprehensive JSOO test: exercises all schema variants with Bytes and JsDataView *)
 
 let to_dv buf = Js_dataview.of_bytes buf ~off:0 ~len:(Bytes.length buf)

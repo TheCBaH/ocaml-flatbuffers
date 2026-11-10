@@ -5,12 +5,12 @@ synopsis: "OCaml runtime and code generator for FlatBuffers serialization"
 description:
   "FlatBuffers is a cross-platform serialization library by Google. This package provides an OCaml runtime library and a flatc code generator backend that produces OCaml bindings from .fbs schema files."
 maintainer: ["Vladimir Silyaev <thecbah@gmail.com>"]
-authors: ["Vladimir Silyaev"]
+authors: ["dmitrig" "Vladimir N. Silyaev"]
 license: "Apache-2.0"
 tags: ["flatbuffers" "serialization" "binary" "ocaml"]
-homepage: "https://github.com/TheCBaH/flatbuffers"
-doc: "https://github.com/TheCBaH/flatbuffers"
-bug-reports: "https://github.com/TheCBaH/flatbuffers/issues"
+homepage: "https://github.com/TheCBaH/ocaml-flatbuffers"
+doc: "https://github.com/TheCBaH/ocaml-flatbuffers"
+bug-reports: "https://github.com/TheCBaH/ocaml-flatbuffers/issues"
 depends: [
   "flatbuffers-tools" {>= "0.1"}
   "dune" {>= "3.8"}
@@ -39,4 +39,4 @@ build: [
     "@doc" {with-doc}
   ]
 ]
-dev-repo: "git+https://github.com/TheCBaH/flatbuffers.git"
+dev-repo: "git+https://github.com/TheCBaH/ocaml-flatbuffers.git"

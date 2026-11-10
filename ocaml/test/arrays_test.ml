@@ -1,3 +1,6 @@
+(* Copyright 2026 Vladimir N. Silyaev
+   SPDX-License-Identifier: Apache-2.0 *)
+
 let check_nested_struct_roundtrip () =
   let open Fixtures.Arrays_test in
   let open MyGame.Example in

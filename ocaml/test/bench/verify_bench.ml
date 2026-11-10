@@ -1,3 +1,6 @@
+(* Copyright 2026 Vladimir N. Silyaev
+   SPDX-License-Identifier: Apache-2.0 *)
+
 (* Cost of structural verification, against the unchecked reader baseline.
 
    Three shapes are measured: a small scalar-only table, the vector- and

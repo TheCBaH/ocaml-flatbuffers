@@ -1,3 +1,6 @@
+(* Copyright 2026 Vladimir N. Silyaev
+   SPDX-License-Identifier: Apache-2.0 *)
+
 (** Zero-copy FlexBuffers reader and semantic verifier.
 
     Values retain the supplied backing buffer. The accessors do not perform
